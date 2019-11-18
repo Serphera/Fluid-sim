@@ -1,0 +1,10 @@
+C:\Users\peter\source\repos\FluidSimV2\FluidSimV2\bin\Debug\FluidSimV2.exe.config
+C:\Users\peter\source\repos\FluidSimV2\FluidSimV2\bin\Debug\FluidSimV2.exe
+C:\Users\peter\source\repos\FluidSimV2\FluidSimV2\bin\Debug\FluidSimV2.pdb
+C:\Users\peter\source\repos\FluidSimV2\FluidSimV2\bin\Debug\FluidLib.dll
+C:\Users\peter\source\repos\FluidSimV2\FluidSimV2\bin\Debug\FluidLib.pdb
+C:\Users\peter\source\repos\FluidSimV2\FluidSimV2\obj\Debug\FluidSimV2.csprojAssemblyReference.cache
+C:\Users\peter\source\repos\FluidSimV2\FluidSimV2\obj\Debug\FluidSimV2.csproj.CoreCompileInputs.cache
+C:\Users\peter\source\repos\FluidSimV2\FluidSimV2\obj\Debug\FluidSimV2.csproj.CopyComplete
+C:\Users\peter\source\repos\FluidSimV2\FluidSimV2\obj\Debug\FluidSimV2.exe
+C:\Users\peter\source\repos\FluidSimV2\FluidSimV2\obj\Debug\FluidSimV2.pdb
