@@ -1,18 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using System.Collections.Generic;
 using FluidLib;
 
 namespace FluidSimV2 {
-
-
     interface IFluidBehaviour {
+        BoundingVolume Container { get; set; }
+        float DeltaTime { get; set; }
+        float Mass { get; set; }
+        float Viscocity { get; set; }
 
-        void SetBounds(int x, int y);
-
-        List<FluidParticle> TranslateParticles(List<FluidParticle> particles);
+        void SetMass(float mass);
+        void SetTimeStep(float time);
+        void SetViscocity(float viscocity);
+        List<FluidParticle> Update(List<FluidParticle> particles);
     }
 }

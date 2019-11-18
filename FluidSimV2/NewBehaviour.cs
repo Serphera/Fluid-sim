@@ -7,7 +7,7 @@ using FluidLib;
 
 namespace FluidSimV2 {
 
-    class NewBehaviour {
+    class NewBehaviour : IFluidBehaviour {
 
         public float DeltaTime { get; set; }
         SmoothingKernels Kernels { get; set; }

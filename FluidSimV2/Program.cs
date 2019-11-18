@@ -35,30 +35,6 @@ namespace FluidSimV2 {
 
                 sim.Update(fluids);
                 display.PrintResult(fluids, xBound, yBound);
-                //Console.ReadKey();
-                /*
-                display.PrintResult(fluids, xBound, yBound);
-                
-                if (runOnce is true) {
-
-                    Console.SetCursorPosition(0, yBound + 2);
-                    Console.Write("How many steps do you want to simulate?");
-                    Console.SetCursorPosition(0, yBound + 3);
-                }
-
-                display.ClearOldInput(yBound);
-                if ((RequestInput(ref steps) is false) || fluids.Count > 399) { break; }
-
-                for (int i = steps; i > 0; i--) {
-                    
-                    sim.Update(fluids);
-                    display.PrintResult(fluids, xBound, yBound);
-                    Thread.Sleep(150 / steps);
-                }
-
-                display.ClearOldInput(yBound);
-                runOnce = false;
-                */
 
             } while (true);
         }

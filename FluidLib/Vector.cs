@@ -173,22 +173,25 @@ namespace FluidLib {
 
         private static bool Compare(Vector a, Vector b) {
 
-            bool larger = true;
+            bool isGreater = true;
 
             if (a.X < b.X) {
 
-                larger = false;
+                isGreater = false;
             }
             else if (a.Y < b.Y) {
 
-                larger = false;
+                isGreater = false;
             }
 
-            return larger;
+            return isGreater;
         }
 
 
+        public static implicit operator string(Vector a) {
 
+            return $"({a.X}, {a.Y})";
+        }
 
     }
 
